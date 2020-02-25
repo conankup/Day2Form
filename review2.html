@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaruk Nattayakun</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+        }
+
+        table {
+            width: 800px;
+            border-collapse: collapse;
+            align-content;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #000;
+        }
+
+        th,
+        td {
+            padding: 10px;
+        }
+
+        td {
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>value in display property</th>
+                <th>grid vs flex</th>
+                <th>justify vs align</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>value in display
+                    <ul>
+                        <li>block</li>
+                        <li>inline</li>
+                    </ul>
+                    property
+                    <ul>
+                        <li>block</li>
+                        <li>flex</li>
+                        <li>grid</li>
+                        <li>inline</li>
+                        <li>inline-block</li>
+                    </ul>
+                </td>
+                <td>grid ช่วยในการจัด layout 2 มิติ flex ทำงานได้ดีใน 1 มิติ คือเป็นการจัดเรียงจากบนลงล่าง</td>
+                <td>justify เป็นการจัดตำแหน่ง content align เป็นการจัดตำแหน่ง item ภายใน content</td>
+            </tr>
+        </tbody>
+    </table>&nbsp;
+    <table>
+        <thead>
+            <tr>
+                <th>Positon</th>
+                <th>z-index</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>มีอยู่ด้วยกัน 4 แบบ
+                    <ul>
+                        <li>static จะเป็นค่าตั้งต้นหากเราไม่ได้ระบุ Positon</li>
+                        <li>relative จัดตำแหน่งต่อจากจุดที่มันอยู่ตรงนั้นต่อไปเลื่อยๆ</li>
+                        <li>fixed เป็นการตึงตำแหน่งไม่ให้ขยับ</li>
+                        <li>absolute จัดตำแหน่งแบบอิสระภายใต้ element นั้น</li>
+                        <li>sticky เป็นการจัดตำแหน่งแบบผสมระหว่าง fixed กับ relative</li>
+                    </ul>
+                </td>
+                <td>z-index เป็นการจัดตำแหน่งคล้ายๆกับการวาง layer ในโปรแกรม photoshop</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
